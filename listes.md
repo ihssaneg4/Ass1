@@ -395,6 +395,20 @@ def union_sans_doublon(liste1, liste2):
 print(union_sans_doublon([1, 6, 2, 4], [2, 7, 6, 2]))
 ```
 ````
+def intersection(l1,l2):
+    l3=[]
+    for e in l1:
+        if e in l2 and e not in l3:
+            l3.append(e)
+    return l3
+
+
+
+
+l1=[2,4,5,2,7,6]
+l2=[5,8,2,3,2]
+print("A inter B ", intersection(l1,l2))
+````
 
 ## Copie de liste
 
